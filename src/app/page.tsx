@@ -44,7 +44,7 @@ const MCP_CONFIG = `{
   "mcpServers": {
     "agentboard": {
       "command": "npx",
-      "args": ["-y", "agentboard", "mcp"]
+      "args": ["-y", "@andupetcu/agentboard", "mcp"]
     }
   }
 }`;
@@ -80,7 +80,7 @@ export default function Home() {
           </p>
 
           <div className="mt-10 flex justify-center">
-            <CopyButton text="npm install -g agentboard" />
+            <CopyButton text="npm install -g @andupetcu/agentboard" />
           </div>
 
           {/* Terminal */}
@@ -287,7 +287,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/anthropics/agentboard"
+              href="https://github.com/andupetcu/agentboard"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors"
@@ -302,7 +302,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://www.npmjs.com/package/agentboard"
+              href="https://www.npmjs.com/package/@andupetcu/agentboard"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors"
